@@ -13,7 +13,8 @@ body{
     align-items: center;
     justify-content: center;
     font-size: 18px;
-    background:var(--color-secondary);
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(15,121,9,1) 35%, rgba(0,212,255,1) 100%);
     /* background:url(./bg_image.jpg); */
     background-size: cover;
 }
@@ -44,11 +45,14 @@ body{
 .form__message{
     text-align: center;
     margin-bottom: 1rem;
+    
+   
 }
 
 .form__title{
     margin-bottom: 2rem;
     text-align: center;
+    
 }
 
 .form__message--success{
